@@ -1,0 +1,38 @@
+FilterEditor
+Cyclic master detail
+find ../core/src -name '*.ts' | xargs wc -l
+
+undo/save -> still transaction
+
+insert="inherit"
+update="inherit"
+
+RecordStateIndicator
+LOV lock screen
+
+
+*** Jonas ***
+
+LeftMenu hide doesn't work
+kigge på text typer.
+kigge på rightclick.
+
+*************
+
+Demo:
+
+Tags: Heading
+Countries: from=
+Locations: ListOfValues, search on countries
+
+MasterDetail:
+	Dates,
+	Sorting,
+	Swap Fields,
+	QueryEditor,
+	Concurrency,
+	ReturnOnInsert,
+	Row-warning for salary
+
+Employess:
+PhoneBook: Membased
