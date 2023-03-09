@@ -3,6 +3,18 @@
 #set -x
 set -e
 
+if ! which git > /dev/null
+then
+	echo Install git
+	sudo apt install git
+fi
+
+if ! which unzip > /dev/null
+then
+	echo Install unzip
+	sudo apt install unzip
+fi
+
 if ! which npm > /dev/null
 then
 	echo Install npm
